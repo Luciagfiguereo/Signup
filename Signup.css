@@ -1,0 +1,133 @@
+
+:root{
+    font-size: 100%;
+    font-size: 16px;
+    line-height: 2;
+    
+}
+
+body{
+    padding: 0;
+    margin: 0;
+    font-weight:500;
+}
+
+
+
+a:hover{
+    text-decoration: underline;
+
+}
+.split-screen{
+    display: flex;
+    flex-direction: column;
+    
+}
+.small{
+    font-size: 80%;
+}
+
+.Left{
+    height:200px;
+}
+ .Left, .Right{
+     display: flex;
+     justify-content: center;
+     align-items: flex;
+ }
+
+.Left{
+    background-color:black;
+}
+
+h1{
+    color: white;
+    font-family: 'Londrina Outline', monospace;
+     text-shadow:0 0 5px #ff607b,
+        0 0 10px #ff607b,
+        0 0 20px #ff607b,
+        0 0 40px #ff607b,
+        0 0 60px #ff607b, 
+        0 0 80px #ff607b,
+        0 0 100px #ff607b;
+        font-size:40px;
+        
+    }
+    
+.Left .copy{
+ color: white;
+ text-align: center;
+ -webkit-font-smoothing:antialiased;
+ -moz-osx-font-smoothing:grayscale;
+    }
+
+.Left p {
+ font-weight:400;
+}
+
+.Right .copy{
+    color:black;
+    text-align: center;
+}
+
+.Right .copy p{
+
+    margin: 1.5em 0;
+    font-size: 0.875em;
+
+}
+
+.Right form{
+    width: 328px;
+}
+
+form input[type="text"],
+form input[type="email"],
+form input[type="password"] {
+
+    display: block;
+    width:100%;
+    box-sizing:border-box;
+    border-radius:8px;
+    border: 1px solid #c4c4c4;
+    padding: 1em;
+    margin-bottom:1.25rem;
+    font-size:0.875rem;
+    color: #ff607b;
+    
+}
+
+label{
+    display: block;
+    margin-bottom: 0.5rem;
+    font-size:0.75rem;
+
+}
+
+.input-container.password {
+position:relative;
+}
+
+.Signup-button-btn{
+    display: block;
+    width: 100%;
+    background:var(purple);
+    color:black;
+    font-weight:600;
+    border:none;
+    padding:1rem;
+    border-radius:8px;
+    font-size:1rem;
+    letter-spacing:0.5px;
+
+}
+
+.login-container {
+    color: #ff607b;
+}
+
+.Signup-button-btn:hover{
+    background:#ff607b;
+    cursor: pointer;
+}
+
